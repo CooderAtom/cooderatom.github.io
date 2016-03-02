@@ -1,0 +1,35 @@
+# Site settings
+title: Atom的炮灰盒儿
+url: "cooderatom.me"
+timezone: Asia/Shanghai
+description: Just for fun.
+
+# Your information
+email: cooderatom@sina.com
+author: CooderAtom
+avatar: "https://ooo.0o0.ooo/2016/02/29/56d3fe6a3b53a.jpg"
+profile: 原子
+#twitter_username: twitter_username
+#github_username:  github_username
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+duoshuo_shortname: cooderatom  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
